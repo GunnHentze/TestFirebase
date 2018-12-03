@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8EE5A821B559F600FE2CDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EE5A721B559F600FE2CDD /* GoogleService-Info.plist */; };
-		0C8EE5A921B559F600FE2CDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EE5A721B559F600FE2CDD /* GoogleService-Info.plist */; };
 		0CA8840F21B550BB005832FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8840E21B550BB005832FF /* AppDelegate.swift */; };
 		0CA8841121B550BB005832FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8841021B550BB005832FF /* ViewController.swift */; };
 		0CA8841421B550BB005832FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8841221B550BB005832FF /* Main.storyboard */; };
@@ -16,6 +14,8 @@
 		0CA8841921B550BD005832FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8841721B550BD005832FF /* LaunchScreen.storyboard */; };
 		0CA8842421B550BD005832FF /* TestFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8842321B550BD005832FF /* TestFirebaseTests.swift */; };
 		5CC4F2C79D6F29A47DD4A3A3 /* Pods_TestFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35453EC8247FA886C8B4007 /* Pods_TestFirebase.framework */; };
+		FDBC0E3821B587090057075D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBC0E3721B587080057075D /* GoogleService-Info.plist */; };
+		FDBC0E3921B587090057075D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBC0E3721B587080057075D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C8EE5A721B559F600FE2CDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0CA8840B21B550BA005832FF /* TestFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA8840E21B550BB005832FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA8841021B550BB005832FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		6D986A16B22BA06311C128C7 /* Pods-TestFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestFirebase/Pods-TestFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		D4752621EC69C0679986B649 /* Pods_TestFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35453EC8247FA886C8B4007 /* Pods_TestFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBC0E3721B587080057075D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 				0CA8841521B550BD005832FF /* Assets.xcassets */,
 				0CA8841721B550BD005832FF /* LaunchScreen.storyboard */,
 				0CA8841A21B550BD005832FF /* Info.plist */,
-				0C8EE5A721B559F600FE2CDD /* GoogleService-Info.plist */,
+				FDBC0E3721B587080057075D /* GoogleService-Info.plist */,
 			);
 			path = TestFirebase;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 				0CA8840721B550BA005832FF /* Sources */,
 				0CA8840821B550BA005832FF /* Frameworks */,
 				0CA8840921B550BA005832FF /* Resources */,
-				2A7D8DA57BD92E936C6095BA /* [CP] Embed Pods Frameworks */,
+				DB1E4DAC7FE6DA254A1CED62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA8841921B550BD005832FF /* LaunchScreen.storyboard in Resources */,
-				0C8EE5A821B559F600FE2CDD /* GoogleService-Info.plist in Resources */,
+				FDBC0E3821B587090057075D /* GoogleService-Info.plist in Resources */,
 				0CA8841621B550BD005832FF /* Assets.xcassets in Resources */,
 				0CA8841421B550BB005832FF /* Main.storyboard in Resources */,
 			);
@@ -220,39 +220,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8EE5A921B559F600FE2CDD /* GoogleService-Info.plist in Resources */,
+				FDBC0E3921B587090057075D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A7D8DA57BD92E936C6095BA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TestFirebase/Pods-TestFirebase-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFirebase/Pods-TestFirebase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		958420D58054DB8CBFFB2CB9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +243,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1E4DAC7FE6DA254A1CED62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestFirebase/Pods-TestFirebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestFirebase/Pods-TestFirebase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
